@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Add Data</title>
+</head>
+<body>
+
+<form method="post" action="/addData">
+  <table >
+    <tr>
+      <td align="center" colspan=9><h3>Add Data</h3></td>
+    </tr>
+    <tr>
+      <td align="center">Bubble Name</td>
+      <td align="left"><input type="text" name="bubble_name"/></td>
+      <td align="center">Creator</td>
+      <td align="left"><input type="text" name="creator"/></td>
+      <td align="center"># of Moments in Bubble</td>
+      <td align="left"><input type="text" name="bubble_num_moments"/></td>
+    </tr>
+    <tr>
+      <td align="center">NBU Widget Views</td>
+      <td align="left"><input type="text" name="widget_nbu_views"/></td>
+      <td align="center">Total Video Views</td>
+      <td align="left"><input type="text" name="total_video_views"/></td>
+      <td align="center">Vists</td>
+      <td align="left"><input type="text" name="visits"/></td>
+    </tr>
+    <tr>
+      <td align="center">Views Per Vists</td>
+      <td align="left"><input type="text" name="views_per_visit"/></td>
+      <td align="center">Avg Watch Time</td>
+      <td align="left"><input type="text" name="average_watch_time"/></td>
+      <td align="center">% Mobile</td>
+      <td align="left"><input type="text" name="percentage_mobile"/></td>
+    <tr>
+      <td align="center" colspan=9><input type="Submit"/></td>
+    </tr>
+  </table>
+</form>
+
+<div id="return"></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/postData.js"></script>
+</body>
+</html>

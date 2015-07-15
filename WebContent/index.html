@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+</head>
+<body>
+
+<form method="post" action="/login">
+  <table>
+    <tr>
+      <td align="center" colspan=2><h3>Register</h3></td>
+    </tr>
+	  <tr>
+	    <td align="right">Username</td>
+	    <td align="left"><input type="text" name="username"/></td>
+	  </tr>
+	  <tr>
+	    <td align="right">Email</td>
+	    <td align="left"><input type="text" name="email"/></td>
+	  </tr>
+	  <tr>
+	    <td align="right">Password</td>
+	    <td align="left"><input type="text" name="password"/></td>
+	  </tr>
+	  <tr>
+	    <td align="center" colspan=2><input type="Submit"/></td>
+	  </tr>
+  </table>
+</form>
+
+<button type="button" class="button" id="getaccounts">See Current Accounts</button>
+<button type="button" class="button" id="getindustry">See Industries not implemented</button>
+<button type="button" class="working-post" id="report">Post hard-coded JS object</button>
+<button type="button" class="jasper" id="report">Jasper</button>
+
+<div>
+Output:
+<div id="return"></div>
+</div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/postForm.js"></script>
+</body>
+</html>
